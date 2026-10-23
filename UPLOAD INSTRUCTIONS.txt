@@ -1,22 +1,19 @@
-SCRIPTORIUM — GITHUB DELIVERY
-Prepared 23 October 2026
+SCRIPTORIUM — UPLOAD INSTRUCTIONS
 
-1. Upload README.md and this instruction file to your GitHub repository. If using Git locally, keep .gitignore as well; it excludes the large installers from commits.
-2. In that repository, open Releases > Draft a new release.
-3. Choose a new tag (for example 2026.10.23-study-layout) and title.
-4. Copy the text from release-assets/RELEASE NOTES.txt into the release description.
-5. Drag ALL FOUR FILES inside release-assets into the release attachment area:
-   Scriptorium Setup.exe
-   Scriptorium Mac.zip
-   SHA256SUMS.txt
-   RELEASE NOTES.txt
-6. Save the draft, check the attached filenames, then publish when ready.
+Canonical Git repository: C:\Users\James\Desktop\Scriptorium Portable\GitHub Upload
+Remote: https://github.com/piakobos/scriptorium.git
+Branch: main
 
-Do not drag the installers into the repository's normal Upload files page: they exceed ordinary GitHub file limits. GitHub Releases is the intended destination.
+The latest verified downloads are in release-assets:
+Windows: Scriptorium Setup.exe
+Mac: Scriptorium Mac.zip
 
-The two packages were copied from the current master Delivery and checked against its SHA-256 checksums. No upload or publication has been performed.
+The release-assets folder is intentionally excluded from Git commits.
+Push documentation with git add ., git commit, and git push.
+Upload the installer and ZIP separately to GitHub Releases, using the release attachment area or GitHub CLI.
 
-This is an intentional upload snapshot, not another editable master. After future app changes, refresh it from the main Delivery before uploading another release.
+GitHub CLI, from this folder after gh auth login:
+gh release create v1.0.0 "release-assets/Scriptorium Setup.exe" "release-assets/Scriptorium Mac.zip" "release-assets/SHA256SUMS.txt" --repo piakobos/scriptorium --title "Scriptorium 1.0.0" --notes-file "release-assets/RELEASE NOTES.txt" --target main
 
-GitHub file-size guidance:
-https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github
+For future releases, rebuild the app packages, refresh release-assets and checksums, then use a new version tag.
+The editable app source remains in the parent Scriptorium Portable project.
