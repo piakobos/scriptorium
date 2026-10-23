@@ -1,0 +1,9 @@
+Scriptorium — 23 October 2026
+
+Includes the current library, Greek and Hebrew morphology possibilities, compact grammar rows, grouped Hebrew word parts, Cormorant Garamond typography, and split study views with independent scrolling and a resizable divider.
+
+Study controls are more compact. The corner gear button hides or restores layout controls. Personal notes are not included in these packages.
+
+Windows startup and interface checks passed. Package interfaces match the current master. Mac checks passed for required modules, Intel and Apple silicon runtimes, 21 universal native extensions, executable launcher permissions, and database checksums. Actual Mac launch testing remains outstanding.
+
+Download the Windows installer or the Mac ZIP for your computer. Keep the full extracted Mac application together.
