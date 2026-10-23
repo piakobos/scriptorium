@@ -1,0 +1,22 @@
+SCRIPTORIUM — GITHUB DELIVERY
+Prepared 23 October 2026
+
+1. Upload README.md and this instruction file to your GitHub repository. If using Git locally, keep .gitignore as well; it excludes the large installers from commits.
+2. In that repository, open Releases > Draft a new release.
+3. Choose a new tag (for example 2026.10.23-study-layout) and title.
+4. Copy the text from release-assets/RELEASE NOTES.txt into the release description.
+5. Drag ALL FOUR FILES inside release-assets into the release attachment area:
+   Scriptorium Setup.exe
+   Scriptorium Mac.zip
+   SHA256SUMS.txt
+   RELEASE NOTES.txt
+6. Save the draft, check the attached filenames, then publish when ready.
+
+Do not drag the installers into the repository's normal Upload files page: they exceed ordinary GitHub file limits. GitHub Releases is the intended destination.
+
+The two packages were copied from the current master Delivery and checked against its SHA-256 checksums. No upload or publication has been performed.
+
+This is an intentional upload snapshot, not another editable master. After future app changes, refresh it from the main Delivery before uploading another release.
+
+GitHub file-size guidance:
+https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github
