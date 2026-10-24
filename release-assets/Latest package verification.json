@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-24",
+  "status": "passed",
+  "source_stable_during_build": true,
+  "compiled_source_modules_match": 22,
+  "source_manifest": {
+    "library.sqlite": "7d399ebee173a6543d8ee2a702d03bd0f9bda6cf93fb7b0d5a2838f939d8913b",
+    "dictionaries.sqlite": "a0fe7290acb1f7efd60dcf38c5f22ca23e329036dc72cd099247c87e8a42f733",
+    "release": "2026.10.24.cajetan-rome1542",
+    "commentaries.sqlite": "5de8159feb8cc6aec5886e42451aba130a1e5c41d9ececa3cbe95c272be802b0"
+  },
+  "features": [
+    "Catena Aurea combined chapter lectios",
+    "Persistent chapter reading position",
+    "Compact grammar and split study views",
+    "Latest Cajetan Rome 1542 text"
+  ],
+  "library_checks": [
+    {
+      "path": "C:\\Users\\James\\Desktop\\Scriptorium Portable\\Scriptorium.app\\Contents\\Resources\\app\\data",
+      "cajetan_content_sha256": "aae721ab57774b32c5f200e656ae030e5363d2560fd9339170aa86e8879afe8a",
+      "sections": 205
+    },
+    {
+      "path": "C:\\Users\\James\\Desktop\\Scriptorium Portable\\Windows\\Library",
+      "cajetan_content_sha256": "aae721ab57774b32c5f200e656ae030e5363d2560fd9339170aa86e8879afe8a",
+      "sections": 205
+    },
+    {
+      "path": "C:\\Users\\James\\AppData\\Local\\Programs\\Scriptorium\\Library",
+      "cajetan_content_sha256": "aae721ab57774b32c5f200e656ae030e5363d2560fd9339170aa86e8879afe8a",
+      "sections": 205
+    },
+    {
+      "path": "C:\\Users\\James\\AppData\\Local\\Scriptorium\\data",
+      "cajetan_content_sha256": "aae721ab57774b32c5f200e656ae030e5363d2560fd9339170aa86e8879afe8a",
+      "sections": 205
+    }
+  ],
+  "ui_checks": [
+    "single-view chapter continuity",
+    "split-view chapter continuity",
+    "compact controls"
+  ],
+  "sha256": {
+    "Scriptorium Setup.exe": "c0db7e81ed828b72ae3849cc42f8a9b92985bd5bc2d9b19b89fd895ef5f6db70",
+    "Scriptorium Mac.zip": "2a8af9a349e569f7cad40e54eccbab85a905b53bead12a4e49bbb6a64eadcbc9"
+  },
+  "mac": "Structural and dependency checks passed; execution on Mac hardware remains untested.",
+  "installed_compiled_app_check": "passed",
+  "personal_notes_unchanged": true
+}

@@ -1,0 +1,12 @@
+SCRIPTORIUM — 24 October 2026
+Release: 2026.10.24.gloss-e-verse-aligned
+
+Updated Latin Glossa ordinaria: 73 books, 1,334 chapters and all 35,809 Vulgate verse positions indexed. Includes 35,971 entries, with 67 shared passages and 105 separate introductions. No whole-chapter fallback entries remain. Complete Psalm 118 recovered through verse 176; Psalm 115 and 147 numbering reconciled with the local Vulgate.
+
+The current library retains the existing commentaries, including Ambrosiaster and Rabanus, and previous Cajetan corrections. Private notes and personal commentaries are preserved in user libraries and excluded from delivery packages.
+
+Windows installer and Mac ZIP rebuilt and checked against the current master. Database integrity, foreign keys, verse coverage and Windows live verse lookups passed. All delivery mirrors have identical SHA-256 hashes. Mac archive, bundled runtimes, permissions and content verified; native launch on Mac hardware has not been tested here.
+
+Earlier research reports and preserved backups are historical records, not current packages.
+
+24 October 2026 integration verification: current Cajetan Rome 1542 content and chapter-commentary interface changes coexist. All 22 compiled source modules match; installed executable startup check and current browser tests passed. Source revision stayed unchanged through packaging and publication. Main Delivery and GitHub Upload/release-assets packages verified. Other chat was not interrupted; later changes require a later package refresh.
