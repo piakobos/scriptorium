@@ -1,19 +1,19 @@
 SCRIPTORIUM — UPLOAD INSTRUCTIONS
+Updated 27 October 2026
 
-Canonical Git repository: C:\Users\James\Desktop\Scriptorium Portable\GitHub Upload
-Remote: https://github.com/piakobos/scriptorium.git
-Branch: main
+The release-assets folder contains only these three app downloads:
+  Scriptorium Setup.exe
+  Scriptorium Mac.zip
+  Scriptorium Linux.tar.gz
 
-The latest verified downloads are in release-assets:
-Windows: Scriptorium Setup.exe
-Mac: Scriptorium Mac.zip
+Upload only those three files as the GitHub Release attachments.
+Keep their existing platform formats: Windows installer, Mac ZIP and Linux tar.gz.
 
-The release-assets folder is intentionally excluded from Git commits.
-Push documentation with git add ., git commit, and git push.
-Upload the installer and ZIP separately to GitHub Releases, using the release attachment area or GitHub CLI.
+Reports, source/import archives, readmes, checksums and release notes do not
+belong in release-assets. They remain in the parent project's Delivery,
+commentary_sources or Preserved history folders. Use the current release
+notes from ../Delivery/RELEASE NOTES.txt as the release description when needed.
 
-GitHub CLI, from this folder after gh auth login:
-gh release create v1.0.0 "release-assets/Scriptorium Setup.exe" "release-assets/Scriptorium Mac.zip" "release-assets/SHA256SUMS.txt" --repo piakobos/scriptorium --title "Scriptorium 1.0.0" --notes-file "release-assets/RELEASE NOTES.txt" --target main
-
-For future releases, rebuild the app packages, refresh release-assets and checksums, then use a new version tag.
-The editable app source remains in the parent Scriptorium Portable project.
+Repository: https://github.com/piakobos/scriptorium
+Select a new release tag after rebuilding the downloads. This folder cleanup
+does not commit, push or change an already published GitHub release.

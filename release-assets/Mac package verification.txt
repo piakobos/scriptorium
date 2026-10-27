@@ -1,3 +1,0 @@
-Packaged library import passed
-Mac structural checks passed: Intel and Apple silicon runtimes, 21 universal native extensions, required modules, launcher permissions, interface and library hashes. Mac hardware execution remains untested.
-Mac ZIP verified: 1167913822 bytes. Runtime testing on Mac remains outstanding.

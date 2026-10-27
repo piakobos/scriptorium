@@ -1,2 +1,0 @@
-c0db7e81ed828b72ae3849cc42f8a9b92985bd5bc2d9b19b89fd895ef5f6db70  Scriptorium Setup.exe
-2a8af9a349e569f7cad40e54eccbab85a905b53bead12a4e49bbb6a64eadcbc9  Scriptorium Mac.zip

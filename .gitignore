@@ -1,2 +1,8 @@
 .DS_Store
 Thumbs.db
+
+# GitHub downloads: app packages only (27 October 2026)
+release-assets/*
+!release-assets/Scriptorium Setup.exe
+!release-assets/Scriptorium Mac.zip
+!release-assets/Scriptorium Linux.tar.gz
