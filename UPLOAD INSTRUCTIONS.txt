@@ -1,5 +1,5 @@
 SCRIPTORIUM — UPLOAD INSTRUCTIONS
-Updated 27 October 2026
+Updated 28 October 2026
 
 The release-assets folder contains only these three app downloads:
   Scriptorium Setup.exe
@@ -10,9 +10,11 @@ Upload only those three files as the GitHub Release attachments.
 Keep their existing platform formats: Windows installer, Mac ZIP and Linux tar.gz.
 
 Reports, source/import archives, readmes, checksums and release notes do not
-belong in release-assets. They remain in the parent project's Delivery,
-commentary_sources or Preserved history folders. Use the current release
-notes from ../Delivery/RELEASE NOTES.txt as the release description when needed.
+belong in release-assets. They remain in the parent project's commentary_sources
+or Preserved history folders. The former Delivery folder has been retired.
+Current checksums and verification records are in ../Preserved history/Release
+verification 2026-10-28. Historical release notes and research records are in
+../Preserved history/Delivery records 2026-10-28.
 
 Repository: https://github.com/piakobos/scriptorium
 Select a new release tag after rebuilding the downloads. This folder cleanup

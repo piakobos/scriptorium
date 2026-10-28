@@ -14,4 +14,4 @@ Included texts retain their original licences and restrictions; see Sources & he
 
 ## Preparing a release
 
-The local `release-assets` folder contains only these three application packages. See `UPLOAD INSTRUCTIONS.txt` for the upload procedure. Source/import archives, reports, checksums and release notes stay in the master project's Delivery or Preserved history folders.
+The local `release-assets` folder contains only these three application packages. See `UPLOAD INSTRUCTIONS.txt` for the upload procedure. Source/import archives, reports, checksums and release notes stay in the master project's commentary_sources or Preserved history folders. The former Delivery folder has been retired.
